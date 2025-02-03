@@ -100,6 +100,6 @@ echo
 echo "Cleaning up temporary files and directory..."
 rm -rf "$TEMP_DIR"
 
-echo "Testing Jenkins"
+echo "Testing Jenkins with Webhook"
 echo
 echo "Script completed successfully!"
