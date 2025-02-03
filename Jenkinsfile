@@ -8,7 +8,13 @@ pipeline {
                 checkout scm
             }
         }
-        
+        stage('Build') {
+            steps {
+                // Make the script executable
+                git branch: 'main', url: 'https://github.com/ijabs1/itc_jenkins.git'
+                
+            }
+        }
         stage('Set Permissions') {
             steps {
                 // Make the script executable
